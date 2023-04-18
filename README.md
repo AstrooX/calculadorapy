@@ -4,26 +4,26 @@ Fiz um speedrun de uma calculadora básica em python, não é suposto ninguém u
 
 Código:
 
-# Função de soma
+
 def add(a, b):
     return a + b
 
-# Função de subtração
+
 def subtract(a, b):
     return a - b
 
-# Função de multiplicação
+
 def multiply(a, b):
     return a * b
 
-# Função de divisão
+
 def divide(a, b):
     if b == 0:
         return "Erro: divisão por zero não é permitida!"
     else:
         return a / b
 
-# Função principal do programa
+
 def calculator():
     while True:
         print("Selecione uma operação:")
@@ -52,5 +52,5 @@ def calculator():
         else:
             print("Escolha inválida. Por favor, tente novamente.")
 
-# Chamar a função principal do programa
+
 calculator()
