@@ -4,7 +4,7 @@ Fiz um speedrun de uma calculadora básica em python, não é suposto ninguém u
 
 Código:
 
-
+```
 def add(a, b):
     return a + b
 
